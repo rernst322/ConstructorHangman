@@ -5,7 +5,7 @@ module.exports = function Word(word){
 	var letters = [];
 	var wordArray = word.split('');
 //forEach
-
+	
 	wordArray.forEach(function(l){
 		letters.push(new Letter(l));
 		});
@@ -28,11 +28,11 @@ module.exports = function Word(word){
 	}
 
 	this.display = function(){
-		var string = '';
+		var current = '';
 		letters.forEach(function(letter){
-			string += letter.display();
+			current += letter.display();
 		});
-		console.log("        "+ string+ "\nGuesses Left: " + this.gRemaining );
+		console.log("        "+ current+ "\nGuesses Left: " + this.gRemaining );
 	}
 }
 
