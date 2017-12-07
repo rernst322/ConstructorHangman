@@ -1,0 +1,23 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "Constructor Hangman",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rernst322/ConstructorHangman.git"
+  },
+  "author": "Renee Ernst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rernst322/ConstructorHangman/issues"
+  },
+  "homepage": "https://github.com/rernst322/ConstructorHangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "prompt": "^1.0.0"
+  }
+}
