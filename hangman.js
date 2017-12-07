@@ -87,8 +87,8 @@ var Game = function(){
 	function startGame(wrd){
 		this.resetLives();
 		this.currentWrd = new Word(this.wordList[Math.floor(Math.random)+ this.words.length]);
-		this.currentWrd.getltr();
-		this.prompIt();
+
+
 	}
 	var resetLives = function(){
 		this.lives = 0;

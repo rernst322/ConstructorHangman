@@ -11,7 +11,6 @@ var letter = function(l) {
 
 */
 
-//correct
 
 
 function Letter(l){
