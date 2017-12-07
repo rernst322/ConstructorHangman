@@ -13,7 +13,7 @@ module.exports.getWord = function(){
 
 
 /*
-//var words = ["criminal", "strange", "butterfly", "hippopotamus", "elephant", "purple", "poop", "advanced"];
+//var list = ["criminal", "strange", "butterfly", "hippopotamus", "elephant", "purple", "poop", "advanced"];
 var letter = require("/letter.js")
 
 function Word(wrd){
@@ -27,12 +27,7 @@ function Word(wrd){
 		}
 	};
 
-	this.findWord = function(){
-		this,found = this.lets.every(function(currentLetter){
-			return currentLetter.appear;
-		});
-		return this.found;
-	};
+	
 
 	this.checkLetter = function(guessLtr){
 		var guesses = 0;
@@ -56,20 +51,6 @@ this.wordRender = function() {
 module.exports = Word;
 
 /*
-var Word = function(wrds){
-	this.letterArr = [];
-	this.holderArr = [];
-	this.currentWrd = wrds.toUpperCase();
-	this.wordsArray = function(){
-		this.forEach(function(l){
-			var letter = new ltr(l);
-			this.letterArr.push(letter.ltr);
-			this.holderArr.push(letter.placeHolder);
-		}.bind(this));
-	}
-}
-
-
 
 
 
